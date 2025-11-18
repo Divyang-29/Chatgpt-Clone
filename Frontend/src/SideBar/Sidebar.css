@@ -1,0 +1,87 @@
+.sidebar {
+  background-color: #171717;
+  color: #b4b4b4;
+  height: 100vh;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ailogo {
+  height: 25px;
+  width: auto;
+}
+
+span {
+  font-size: 16px;
+}
+
+button {
+  background-color: transparent;
+  margin: 10px;
+  align-items: center;
+  padding: 10px;
+  border: 0;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonClasss {
+  display: flex;
+  justify-content: space-between;
+}
+
+button:hover {
+  border: 1px solid rgba(225, 225, 225, 0.5);
+  border-radius: 10px;
+  background-color: #3a3a3a;
+}
+
+.history {
+  margin: 10px;
+  padding: 10px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.history li {
+  list-style-type: none;
+  cursor: pointer;
+  padding: 8px;
+  margin-bottom: 0.3rem;
+  font-size: 14px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-between;
+  transition: background-color 0.2s ease;
+}
+
+.history li:not(.highlighted):hover {
+  background-color: #3a3a3a;
+}
+
+.highlighted {
+  background-color: rgba(180, 180, 180, 0.5);
+  padding-left: 5px;
+  border-radius: 14px;
+}
+
+.sign {
+  padding: 2px;
+  margin: 10px;
+  font-size: 14px;
+  text-align: center;
+  border-top: solid 0.25px rgba(225, 225, 225, 0.5);
+}
+
+.delete {
+  visibility: hidden;
+}
+
+.history li:hover .delete {
+  opacity: 0.6;
+  visibility: visible;
+}

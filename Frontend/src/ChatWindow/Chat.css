@@ -1,0 +1,37 @@
+.chats {
+  /* max-width: 700px;
+  overflow-y: scroll;
+  padding: 8rem; */
+  width: 100%;
+  max-width: 900px; /* or whatever width you prefer */
+  margin: 0 auto; /* centers horizontally */
+  overflow-y: scroll;
+  padding: 2rem 3rem; /* reduce 8rem — it eats width visually */
+  box-sizing: border-box;
+  height: calc(100vh - 250px);
+  overflow-x: hidden;
+}
+
+.userDiv {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9rem;
+}
+
+.gptDiv {
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.usermsg {
+  background-color: #323232;
+  padding: 10px 20px;
+  border-radius: 14px;
+  margin-left: 15rem;
+  max-width: 500px;
+  width: fit-content;
+}
+
+.hljs{
+  border-radius: 14px !important;
+}
