@@ -1,7 +1,7 @@
 import Sidebar from "./SideBar/Sidebar.jsx";
 import ChatWindow from "./ChatWindow/Chatwindow.jsx";
 import MyContext from "./MyContext.jsx";
-import "./app.css";
+import "./App.css";
 import { useState } from "react";
 import { v1 as uuidv1 } from "uuid";
 
